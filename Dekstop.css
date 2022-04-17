@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+img{
+  max-width: 100%;
+}
+.text-center{
+  text-align: center;
+}
+.main{
+  padding: 40px;
+  background-color: #A80052DB;
+}
+.main h1{
+  color: #FFFFFF;
+  font-size: 50px;
+}
+.body{
+  display: flex;
+}
+.left-image{
+  width: 50%;
+}
+.right-content{
+  width: 50%;
+}
+.body{
+  margin-top: 15px;
+}
+.right-content h1{
+  font-size: 33px;
+  margin-bottom: 10px;
+}
+.right-content p{
+  line-height: 1.8em;
+  font-weight: 350;
+}
+.footer{
+  background-color: #42445A;
+  padding: 40px;
+  color: #FFFFFF;
+}

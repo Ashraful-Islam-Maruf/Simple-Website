@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+img{
+  max-width: 100%;
+}
+.text-center{
+  text-align: center;
+}
+.main{
+  background-color: #439702;
+  padding: 40px;
+}
+.main h1{
+  font-size: 33px;
+  color: #FFFFFF;
+}
+.banner{
+  display: flex;
+  margin-top: 15px;
+}
+.banner-image{
+  width: 50%;
+  
+}
+.banner-content{
+  width: 50%;
+}
+.banner-content h1{
+  margin-bottom: 10px;
+}
+.banner-content p{
+  line-height: 1.8em;
+  flex-wrap: 350;
+}
+
+.footer{
+  background-color: #45B0FFDB;
+  padding: 30px;
+}
+

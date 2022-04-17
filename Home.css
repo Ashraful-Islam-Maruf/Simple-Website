@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.text-center{
+  text-align: center;
+}
+.flex{
+  display: flex;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.clear-fix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+
+/*Menu*/
+.main-menu{
+  position: relative;
+  right: 30px;
+  display: flex;
+  border-bottom: 1px solid #0000004A;
+}
+.menu-logo h4{
+  color: #0C20FB;
+  position: relative;
+  bottom: 20px;
+  right: 7px;
+}
+
+.menu-logo{
+  width: 20%;
+}
+.menu-logo img{
+  height: 100%;
+  width: 100%;
+}
+
+.menu{
+  
+}
+.menu ul{
+  display: flex;
+  text-decoration: none;
+  transition:.5s;
+  list-style-type: none;
+}
+
+.menu ul li{
+  padding: 20px 25px;
+  line-height: 65px;
+}
+.menu ul li a{
+  color: #000000;
+  font-weight: 600;
+}
+.menu ul li a:hover{
+  color: #FF7B00;
+  
+}
+/*banner*/
+.banner img{
+  height: 550px;
+  width: 100%;
+}
+.Extra{
+  margin-top: 40px;
+}
+.Extra h1{
+    margin-bottom: 40px;
+
+  color: #A8610F;
+  font-size: 44px;
+  font-weight: 900;
+}
+
+/*Footer*/
+.footer{
+  margin-top: 25px;
+  padding: 50px;
+  border-top: 1px solid #303CC391;
+}
+.footer-bottom{
+  display: flex;
+  border-bottom: 1px solid #303CC391;
+  margin-bottom: 15px;
+}
+.about{
+  margin-bottom: 15px;
+    border-bottom: 1px solid #303CC391;
+
+}
+.about:last-child{
+  border-bottom: none;
+}
+.about img{
+    max-width: 100%;
+
+}
+.left-image{
+  width: 50%;
+}
+.right-content{
+    padding: 20px;
+  width: 50%;
+}
+.right-content h1{
+  font-size: 33px;
+  margin-bottom: 22px;
+}
+.right-content p{
+  font-size: 20px;
+  line-height: 1.8em;
+  font-weight: 350;
+}
+.about img{
+  max-width: 100%;
+  position: relative;
+  top: 30px;
+}
+.about p{
+  font-size: 17px;
+}
+/*END*/
+.end-content{
+  background-color: #A8610F;
+  padding: 45px;
+}
+.end-content h2{
+  color: #FFFFFF;
+  
+}
+
+
+/*Extraaa*/
+.lada{
+    background-color: #DEDEDE94;
+padding-top: 20px;
+}
+.lada h2{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.alada{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.hagol:last-child{
+  margin-right: 0%;
+}
+.hagol{
+  background-color: #FFFFFF;
+  width: 30%;
+  margin-right: 2%;
+}
+.hagol p{
+  font-size: 18px;
+  line-height: 1.7em;
+}
